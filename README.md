@@ -1,6 +1,6 @@
 # C
 
-```python
+```python3
 def func(x, A):
     return (110 % A == 0) and (((x % 80 == 0) and (x % 75 == 0)) <= (x % A == 0))
 for A in range(1000, 1, -1):
