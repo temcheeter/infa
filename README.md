@@ -45,7 +45,7 @@ for n in range(1, 1000, 2):
 print(counter)
 ```
 
-## B(недоделанный)
+# B(недоделанный)
 
 ```
 def transfer(n):
