@@ -10,7 +10,7 @@ for A in range(1000, 1, -1):
 ```
 # E
 
-```
+```python
 def func(x, y, A):
     return ((x - 20 < A) and (10 - y < A)) or ((x+4)*y > 45)
 for A in range(1, 100):
@@ -21,7 +21,7 @@ for A in range(1, 100):
 
 # F
 
-```
+```python
 from functools import lru_cache
 from sys import setrecursionlimit
 setrecursionlimit(99999999)
@@ -47,7 +47,7 @@ print(counter)
 
 # B (недоделанный)
 
-```
+```python
 def transfer(n):
     res = []
     while n:
