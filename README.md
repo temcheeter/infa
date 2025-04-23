@@ -61,6 +61,7 @@ print(sum(res))
 ```
 
 
+```python
 def f(n):
     r = bin(n)[2:]
     r += r[-1]
@@ -76,10 +77,11 @@ for n in range(8, 1000):
         res.append(R)
 
 print(min(res))
+```
 
 
 
-
+```python
 def f(s):
     while '01' in s or '02' in s or '03' in s:
         s = s.replace('01', '302', 1)
@@ -101,10 +103,12 @@ for a in range(1, 40):
             break
     if flag:
         break
+```
 
 
 
 
+```python
 def f(x, A):
     return (x & 29 != 0) <= ((x & 9 == 0) <= (x & A != 0))
 
@@ -112,11 +116,13 @@ for A in range(1, 1000):
     if all([f(x, A) for x in range(1, 5000)]):
         print(A)
         break
+```
 
 
 
 
 
+```python
 def f(n):
     r = bin(n)[2:]
     if sum([int(x) for x in r]) % 2 == 0:
@@ -130,11 +136,12 @@ for n in range(1000):
     if numb >= 16:
         res.append(n)
 print(min(res))
+```
 
 
 
 
-
+```python
 def f(s):
     while '33' in s or '31' in s or '21' in s:
         if '31' in s:
@@ -151,3 +158,4 @@ for n in range(1, 1000):
     if f(s) > 24:
         print(n)
         break
+```
